@@ -1,0 +1,9 @@
+
+FROM jupyter/pyspark-notebook
+WORKDIR /app
+
+COPY Pyspark_wordcount.ipynb /app
+
+COPY bluecastle.txt /app
+
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
