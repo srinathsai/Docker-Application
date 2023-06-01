@@ -27,5 +27,9 @@ Furthermore, when it's time to deploy the application, Docker allows you to pack
 - Pyspark word count program
 - Sample text file.
 
+# Steps of execution 
+Just follow exactly the steps given by me in readme.docx file in files of this repository. You will able to see the beauty of dockes in real world.
 
+# Outcome
+Here I have used docker image which contains ubuntu , pyspark program and sample input in it. By executing my image with following my readme you will be directed directly to jupyter notebook where you can be run pyspark wordcount program. So main motive of here is enabling faster software deliver cycles and that is achieved here in form of pyspark wordcount software deliverable.
  
